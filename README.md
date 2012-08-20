@@ -33,13 +33,13 @@ Topics
 ========================
 
 ##Session 1: Intro to Python
-This session will discuss pythonic syntax, structure, and principles. Useful built-in functions, and data structures critical for use with django will be covered.
+This session will discuss pythonic syntax, structure, and principles. Useful built-in functions, and data structures critical for use with django will be covered. We will be using the python interactive interpreter for a portion of this lesson.
 
 ##Session 2: Django's architecture, design, and principles
-A high level overview of the various components in a django web application, and how they interoperate with each other.
+A high level overview of the various components in a django web application, and how they interoperate with each other. Django's MVT architecture will be broken down. Django's design philosophies will also be discussed.
 
 ##Session 3: Building a django application Part One
-An interactive session where we will build a fully functioning django application
+An interactive session where we will build a fully functioning django application 
 
 ##Session 4: Building a django application Part Two
 
