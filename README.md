@@ -36,13 +36,17 @@ Topics
 This session will discuss pythonic syntax, structure, and principles. Useful built-in functions, and data structures critical for use with django will be covered. We will be using the python interactive interpreter for a portion of this lesson.
 
 ##Session 2: Django's architecture, design, and principles
-A high level overview of the various components in a django web application, and how they interoperate with each other. Django's MVT architecture will be broken down. Django's design philosophies will also be discussed.
+A high level overview of the various components in a django web application, and how they interoperate with each other. Django's MVC architecture will be broken down. Django's design philosophies will also be discussed.
 
 ##Session 3: Building a django application Part One
-An interactive session where we will build a fully functioning django application 
+An interactive session where we will build a fully functioning django application. We will walk through the tutorial presented on https://docs.djangoproject.com/en/1.4/intro/tutorial01/. It is very well documented and will familiarize the student with the djangoproject website for future use. We will go over part 1 and part 2 in this session. This will cover core concepts on setting up a project, implementing models and utilizing the admin functionality.
 
 ##Session 4: Building a django application Part Two
+Part 3 and 4 will be presented in this session. We will cover views and templates here. After this session the student should be equipped with all the basic skills to set up a website.
 
 ##Session 5: Craftsmanship
+Core elements will be reviewed as students will attempt at building features for a website. They can choose from a pre-selected set of tasks or decide on something themselves.
 
 ##Session 6: BONUS TOPICS: NLP, BIG DATA, and SCALABILITY with DJANGO/PYTHON
+Fundamental concepts of natural language processing will be discussed. We will build a basic spam filter using Pythons NLTK library.
+Database and server architectures that allow for scalability will be presented.
