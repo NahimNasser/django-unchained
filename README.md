@@ -35,6 +35,14 @@ Topics
 ##Session 1: Intro to Python
 This session will discuss pythonic syntax, structure, and principles. Useful built-in functions, and data structures critical for use with django will be covered. We will be using the python interactive interpreter for a portion of this lesson.
 
+Flow:
+
+* Intro to Python: Why Python?
+* Data Structures: Strings, Integers, Floats, Dictionaries, Lists, Tuples, Sets. Talk about differences and use cases.
+* Statements and Functions: if, while, for, lambda, filter, sorted, map, dir, help, pdb
+* something to code in class
+* something to take home.
+
 ##Session 2: Django's architecture, design, and principles
 A high level overview of the various components in a django web application, and how they interoperate with each other. Django's MVC architecture will be broken down. Django's design philosophies will also be discussed.
 
@@ -45,7 +53,7 @@ An interactive session where we will build a fully functioning django applicatio
 Part 3 and 4 will be presented in this session. We will cover views and templates here. After this session the student should be equipped with all the basic skills to set up a website.
 
 ##Session 5: Craftsmanship
-Core elements will be reviewed as students will attempt at building features for a website. They can choose from a pre-selected set of tasks or decide on something themselves.
+Core elements will be reviewed as students will attempt at building features for a website. They can choose from a pre-selected set of tasks or decide on something themselves. Students will present in front of the class and have their code ripped apart.
 
 ##Session 6: BONUS TOPICS: NLP, BIG DATA, and SCALABILITY with DJANGO/PYTHON
 Fundamental concepts of natural language processing will be discussed. We will build a basic spam filter using Pythons NLTK library.
