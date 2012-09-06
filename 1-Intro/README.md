@@ -12,6 +12,15 @@ Outline:
 * something to code in class
 * something to take home.
 
+Setup:
+------
+1. Clone the git repo
+2. Make sure python is installed (type python in the command line, it should open up an interpreter)
+3. Navigate to the 1-Intro directory
+4. run ```python -m unittest test_intro```
+
+
+
 Python's built-in types:
 ------------------------
 http://en.wikipedia.org/wiki/Python_(programming_language)#Typing
@@ -59,11 +68,13 @@ Now lets look at each argument, and the special properties and syntax of each on
 * *args* is an **arbitrary argument list**, this means that our function can be called with an arbitrary number of arguments
 * *kwargs* is a dictionary containing all keyword arguments except our formal parameters specified.
 
-Try the following calls:
+Try the following calls to spam:
 
 ```python
 spam('Alex')
 spam(name='Alex')
 spam('Alex', 'Hey', 'Globe')
-spam(name='Alex', firstword='Hey', secondword='Globe')
+spam(firstword='Hey', name='Alex', secondword='Globe')
+spam('Alex, 'Hey', 'Globe', 'WTF?')
+spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
 ```

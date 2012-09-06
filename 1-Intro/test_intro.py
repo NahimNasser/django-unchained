@@ -1,4 +1,4 @@
-import random
+import intro
 import unittest
 
 class TestSequenceFunctions(unittest.TestCase):
