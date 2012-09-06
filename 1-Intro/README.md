@@ -14,10 +14,12 @@ Outline:
 
 Python's built-in types:
 ------------------------
-[Table of Python Types](http://en.wikipedia.org/wiki/Python_(programming_language)#Typing)
+http://en.wikipedia.org/wiki/Python_(programming_language)#Typing
 
 Statements and Functions:
 ----------------
+
+### Dissection of a python function
 
 ```python
 
@@ -45,3 +47,14 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
 	return spam_tuple
 
 ```
+
+#### Function Arguments
+
+The first thing you will notice about the arguments is that python is **dynamically typed**. Type checking is performed at run-time as opposed to compile time.
+
+Now lets look at each argument, and the special properties and syntax of each one:
+
+* *name* is a mandatory argument
+* *firstword* and *secondword* are both **default argument values**, this means that the argument is optional, and a default value is assumed when no value is specified
+* *args* is an **arbitrary argument list**, this means that our function can be called with an arbitrary number of arguments
+* *kwargs* is a dictionary containing all keyword arguments except our formal parameters specified.
