@@ -16,7 +16,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
     if name=='Vimol':
         raise NameError('VI')
 
-    spam_tuple = (firstword.capitalize(), secondword, name)
-    print "%s %s, %s" % spam_tuple
+    #String methods such as capitalize() can be found here: http://docs.python.org/library/stdtypes.html#string-methods
+    spam = "%s %s, %s" % (firstword.capitalize(), secondword, name)
 
-    return spam_tuple
+    return spam
