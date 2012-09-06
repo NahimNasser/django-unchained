@@ -12,3 +12,36 @@ Outline:
 * something to code in class
 * something to take home.
 
+Python's built-in types:
+------------------------
+[Table of Python Types](http://en.wikipedia.org/wiki/Python_(programming_language)#Typing)
+
+Statements and Functions:
+----------------
+
+```python
+
+def spam(name, firstword='hello', secondword='world', *args, **kwargs):
+	'''Prints a string with two words and a name
+
+    Args:
+        name: The name of the user
+        firstword: The first word in the sequence, defaulting to 'hello'
+        secondword: The second word in the sequence, defaulting to 'world'
+
+    Returns:
+        A tuple containing all three strings
+
+    Raises:
+        NameError: Only occurs when user named Vimal attempts to use this function
+    '''
+
+    if name=='Vimol':
+    	raise NameError('VI')
+
+    spam_tuple = (firstword, secondword, name)
+	print "%s %s %s" % spam_tuple
+
+	return spam_tuple
+
+```
