@@ -18,5 +18,4 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
 
     #String methods such as capitalize() can be found here: http://docs.python.org/library/stdtypes.html#string-methods
     spam = "%s %s, %s" % (firstword.capitalize(), secondword, name)
-
     return spam
