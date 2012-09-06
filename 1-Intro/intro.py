@@ -16,7 +16,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
     if name=='Vimol':
         raise NameError('VI')
 
-    spam_tuple = (firstword, secondword, name)
-    print "%s %s %s" % spam_tuple
+    spam_tuple = (firstword.capitalize(), secondword, name)
+    print "%s %s, %s" % spam_tuple
 
     return spam_tuple

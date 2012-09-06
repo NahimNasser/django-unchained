@@ -17,7 +17,8 @@ Setup:
 1. Clone the git repo
 2. Make sure python is installed (type python in the command line, it should open up an interpreter)
 3. Navigate to the 1-Intro directory
-4. run ```python -m unittest test_intro```
+4. Run ```python -m unittest test_intro``` in your powershell(windows) or terminal(mac) to ensure everything is configured correctly
+5. open up test_intro.py and intro.py in your favourite editor, and begin the workshop
 
 
 
@@ -51,7 +52,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
     	raise NameError('VI')
 
     spam_tuple = (firstword, secondword, name)
-	print "%s %s %s" % spam_tuple
+	print "%s %s, %s" % spam_tuple
 
 	return spam_tuple
 
@@ -75,6 +76,6 @@ spam('Alex')
 spam(name='Alex')
 spam('Alex', 'Hey', 'Globe')
 spam(firstword='Hey', name='Alex', secondword='Globe')
-spam('Alex, 'Hey', 'Globe', 'WTF?')
+spam('Alex', 'Hey', 'Globe', 'WTF?')
 spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
 ```

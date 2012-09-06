@@ -1,7 +1,8 @@
-import intro
+from intro import spam
 import unittest
 
-class TestSequenceFunctions(unittest.TestCase):
+class TestIntro(unittest.TestCase):
 
     def test_intro(self):
-        pass
+        spam('Alex')
+        # import pdb; pdb.set_trace()
