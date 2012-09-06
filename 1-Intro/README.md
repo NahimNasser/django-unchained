@@ -48,7 +48,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
 
 ```
 
-#### Function Arguments
+### Function Arguments
 
 The first thing you will notice about the arguments is that python is **dynamically typed**. Type checking is performed at run-time as opposed to compile time.
 
@@ -58,3 +58,12 @@ Now lets look at each argument, and the special properties and syntax of each on
 * *firstword* and *secondword* are both **default argument values**, this means that the argument is optional, and a default value is assumed when no value is specified
 * *args* is an **arbitrary argument list**, this means that our function can be called with an arbitrary number of arguments
 * *kwargs* is a dictionary containing all keyword arguments except our formal parameters specified.
+
+Try the following calls:
+
+```python
+spam('Alex')
+spam(name='Alex')
+spam('Alex', 'Hey', 'Globe')
+spam(name='Alex', firstword='Hey', secondword='Globe')
+```
