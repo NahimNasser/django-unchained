@@ -79,3 +79,29 @@ spam(firstword='Hey', name='Alex', secondword='Globe')
 spam('Alex', 'Hey', 'Globe', 'WTF?')
 spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
 ```
+
+####The Magic of Lambda Functions
+
+```python
+magic = lambda x: x*2
+
+print magic(2)
+```
+
+Try it out, see what happens.
+
+Here's how we could accomplish the same thing without a lambda function
+
+```python
+def magic(x):
+    return x*2
+
+print magic(2)
+```
+
+Lambda Functions (or Anonymous Functions) are functions that are not bound to a name--- and are frequently used with other built in functions such as map() and filter()
+
+####Built-in python functions - Map, Filter
+
+For the full list, check out: 
+http://docs.python.org/library/functions.html
