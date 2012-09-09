@@ -1,6 +1,8 @@
 Django Unchained: An introduction to python and django
 ======================================
-#Session Outline
+By: Shah Warraich and Nahim Nasser
+
+#Course Outline
 
 Date:       
 Time:   6pm - 7pm
@@ -40,8 +42,6 @@ Flow:
 * Intro to Python: Why Python?
 * Data Structures: Strings, Integers, Floats, Dictionaries, Lists, Tuples, Sets. Talk about differences and use cases.
 * Statements and Functions: if, while, for, lambda, filter, sorted, map, dir, help, pdb
-* something to code in class
-* something to take home.
 
 ##Session 2: Django's architecture, design, and principles
 A high level overview of the various components in a django web application, and how they interoperate with each other. Django's MVC architecture will be broken down. Django's design philosophies will also be discussed.
