@@ -4,8 +4,8 @@ By: Shah Warraich and Nahim Nasser
 
 #Course Outline
 
-Date:       
-Time:   6pm - 7pm
+Date:   Thursdays
+Time:   6:30pm - 8pm (1.5HR)
 Cost:   Free
 
 ##Description:
