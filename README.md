@@ -1,12 +1,12 @@
-Django Unchained: An introduction to python and django
+Django Unchained: An Introduction to Python and Django
 ======================================
 By: Shah Warraich and Nahim Nasser
 
 #Course Outline
 
-Date:   Thursdays
-Time:   6:30pm - 8pm (1.5HR)
-Cost:   Free
+* Date:   Thursdays
+* Time:   6:30pm - 8pm (1.5HR)
+*Cost:   Free
 
 ##Description:
 
@@ -18,14 +18,14 @@ By the end of the series, participants will have created a fully functioning dja
 
 ##Prerequisites
 
-Participants should be familiar with object-oriented programming.
+* Participants should be familiar with object-oriented programming.
 
 ##Software Required
 
-Code editor (I use Sublime Text 2, but feel free to use whatever you like)
-Web browser
-Python 2.7
-Terminal (Mac) or Powershell (Windows)
+* Code editor (I use Sublime Text 2, but feel free to use whatever you like)
+* Web browser
+* Python 2.7
+* Terminal (Mac) or Powershell (Windows)
 
 ##Hardware Required
 
@@ -55,6 +55,8 @@ Part 3 and 4 will be presented in this session. We will cover views and template
 ##Session 5: Craftsmanship
 Core elements will be reviewed as students will attempt at building features for a website. They can choose from a pre-selected set of tasks or decide on something themselves. Students will present in front of the class and have their code ripped apart.
 
-##Session 6: BONUS TOPICS: NLP, BIG DATA, and SCALABILITY with DJANGO/PYTHON
+##Session 6: Natural Language Processing with Python
 Fundamental concepts of natural language processing will be discussed. We will build a basic spam filter using Pythons NLTK library.
+
+##Session 7: Scalability with Django
 Database and server architectures that allow for scalability will be presented.
