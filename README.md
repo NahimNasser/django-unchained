@@ -6,7 +6,7 @@ By: Shah Warraich and Nahim Nasser
 
 * Date:   Thursdays
 * Time:   6:30pm - 8pm (1.5HR)
-*Cost:   Free
+* Cost:   Free
 
 ##Description:
 
