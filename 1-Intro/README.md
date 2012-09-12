@@ -9,8 +9,7 @@ Outline:
 * Intro to Python: Why Python?
 * Data Structures: Strings, Integers, Floats, Dictionaries, Lists, Tuples, Sets. Talk about differences and use cases.
 * Statements and Functions: if, while, for, lambda, filter, sorted, map, dir, help, pdb
-* something to code in class
-* something to take home.
+
 
 Setup:
 ------
@@ -69,6 +68,23 @@ Now lets look at each argument, and the special properties and syntax of each on
 * *args* is an **arbitrary argument list**, this means that our function can be called with an arbitrary number of arguments
 * *kwargs* is a dictionary containing all keyword arguments except our formal parameters specified.
 
+In your terminal, navigate to the 1-Intro directory, and type **python**
+
+Lets import some code, so you dont have to write it all in the interpreter:
+```python
+import intro
+```
+
+Note any calls to any functions in intro.py must be prefixed with **intro.**
+
+If you make changes to your intro.py file, instead of closing and reopening the python interpreter, you can simply type
+
+```python
+reload(intro)
+```
+
+*NOTE: We're using out of the box caveman tools to give you an understanding of how things work, more advanced tools will be introduced later*
+
 Try the following calls to spam:
 
 ```python
@@ -82,15 +98,7 @@ spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
 
 ####The Magic of Lambda Functions
 
-```python
-magic = lambda x: x*2
-
-print magic(2)
-```
-
-Try it out, see what happens.
-
-Here's how we could accomplish the same thing without a lambda function
+Here's a rather simple function 
 
 ```python
 def magic(x):
@@ -99,11 +107,55 @@ def magic(x):
 print magic(2)
 ```
 
+Here's how we could accomplish the same thing with a lambda function
+
+```python
+magic = lambda x: x*2
+nameless = magic
+
+print magic(2)
+print nameless(2)
+```
+
 Lambda Functions (or Anonymous Functions) are functions that are not bound to a name--- and are frequently used with other built in functions such as map() and filter()
 
-####Built-in python functions - Map, Filter
+####Built-in python functions - Map
 
-Built-in python functions can be the difference between 10+ LOC vs 1. It is extremely useful to be aware of the various built-in functions.
+Built-in python functions can be the difference between 10+ LOC vs 1. It is extremely useful to be aware of the various built-in function.
 
 For the full list, check out: 
 http://docs.python.org/library/functions.html
+
+Heres a regular function without using built in functions:
+(Yes i know, really terrible code)
+
+```python
+# Given a list, we want to multiply each integer in the list by two
+sample = [1, 2, 3, 4, 5]
+
+def multiply_list_by_2(sample_list):
+    # For each number in sample_list
+    newlist = []
+    for number in sample_list:
+        newlist.append(number * 2)
+    return newlist
+```
+
+Now that you've seen that, lets use a lambda function in conjunction with map().
+
+The map function is defined as follows: "Apply function to every item of iterable and return a list of the results."
+
+The one liner using map():
+```python
+newlist = map(lambda x: x * 2, sample)
+```
+
+The one liner using list comprehensions (faster in this case):
+```python
+newlist = [x * 2 for number in sample]
+```
+
+Now you're probably thinking, when should I use *Map()*, and when should I use a *List Comprehension*?
+
+HOMEWORK: You can find a good discussion here:
+http://stackoverflow.com/questions/1247486/python-list-comprehension-vs-map
