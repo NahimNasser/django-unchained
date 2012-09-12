@@ -103,5 +103,7 @@ Lambda Functions (or Anonymous Functions) are functions that are not bound to a 
 
 ####Built-in python functions - Map, Filter
 
+Built-in python functions can be the difference between 10+ LOC vs 1. It is extremely useful to be aware of the various built-in functions.
+
 For the full list, check out: 
 http://docs.python.org/library/functions.html
