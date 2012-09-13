@@ -102,6 +102,8 @@ def magic(x):
 print magic(2)
 ```
 
+Lambda Functions (or Anonymous Functions) are functions that are not bound to a name--- and are frequently used with other built in functions such as map() and filter()
+
 Here's how we could accomplish the same thing with a lambda function
 
 ```python
@@ -111,8 +113,6 @@ nameless = magic
 print magic(2)
 print nameless(2)
 ```
-
-Lambda Functions (or Anonymous Functions) are functions that are not bound to a name--- and are frequently used with other built in functions such as map() and filter()
 
 ####Built-in python functions - Map
 
@@ -153,7 +153,7 @@ newlist = [x * 2 for number in sample]
 
 Now you're probably thinking, when should I use *Map()*, and when should I use a *List Comprehension*?
 
-HOMEWORK: You can find a good discussion here:
+You can find a good discussion here:
 http://stackoverflow.com/questions/1247486/python-list-comprehension-vs-map
 
 #### Unit testing in python:
