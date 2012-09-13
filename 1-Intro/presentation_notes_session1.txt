@@ -1,0 +1,40 @@
+Why Python?
+
+Python is a general-purpose, interpreted high-level programming language[12] whose design philosophy emphasizes code readability. Its syntax is said to be clear[13] and expressive.[14] Python has a large and comprehensive standard library
+
+The biggest thing that has kept us on Python … well, there are two huge things. One are the libraries. There’s a library for everything. We’ve been learning a lot of these technologies and a lot of these architectures as we go. And, so, when I didn’t understand connection pools, I can just find a library until I understand it better myself and write our own. Don’t understand web frameworks, so we’ll use someone else’s until we make our own. Don’t understand a lot of stuff. And Python has an awesome crutch like that. And now, as we’ve been learning more, pulling more stuff back in house — just so we can have things the way we like them — it’s made the transition super super easy.
+
+The other thing that keeps us on Python, and this is the major thing, is how readable and writable it is. When we hire new employees … I don’t think we’ve yet hired an employee who knew Python. I just say, “everything you write needs to be in Python.” Just so I can read it. And it’s awesome because I can see from across the room, looking at their screen, whether their code is good or bad. Because good Python code has a very obvious structure. And that makes my life so much easier. […] It’s extremely expressive, extremely readable, and extremely writable. And that just keeps life smooth.
+
+for certain routines it has been shows that it is several hundred times slower than C++, not to talk about C
+
+sources:
+
+http://www.python.org/
+http://en.wikipedia.org/wiki/Python_(programming_language)
+http://pythoncard.sourceforge.net/what_is_python.html
+http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprtTR.pdf
+http://www.python.org/doc/essays/comparisons.html
+http://wiki.python.org/moin/PythonVsPhp
+http://c2.com/cgi/wiki?PythonVsRuby
+http://www.udemy.com/blog/modern-language-wars/
+
+
+Excellent for beginners, yet superb for experts
+Rapid development
+Portable, cross-platform
+Object-oriented
+Powerful standard libs
+Wealth of 3rd party packages
+
+Python isn't the best for memory intensive tasks.
+Python is interpreted language & is slow compared to C/C++ or java.
+Python not a great choice for a high-graphic 3d game that takes up a lot of CPU.
+Python is evolving continuously, with constant evolution there is little substantial documentation available for the language.
+
+
+python vs php:
+common: are interpreted, high level languages, dynamic typing, open source, large developer communities, extendable in java c++, very portable. almost on all platforms without compilation, variable number of function args, object serialization, method chaining,have a standardized database API ,support lambdas and other builtin functional programming constructs,
+
+python vs ruby:
+high level, garbage collected, dynamic typed
