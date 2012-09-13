@@ -19,11 +19,22 @@ Setup:
 4. Run ```python -m unittest test_intro``` in your powershell(windows) or terminal(mac) to ensure everything is configured correctly
 5. open up test_intro.py and intro.py in your favourite editor, and begin the workshop
 
+Getting Started:
+----------------
+In your terminal, navigate to the 1-Intro directory, and type **python**
 
+Lets import some code, so you dont have to write it all in the interpreter:
+```python
+import intro as i
+```
 
-Python's built-in types:
-------------------------
-http://en.wikipedia.org/wiki/Python_(programming_language)#Typing
+Note any calls to any functions in intro.py must be prefixed with **i.**
+
+If you make changes to your intro.py file, instead of closing and reopening the python interpreter, you can simply type
+
+```python
+reload(i)
+```
 
 Statements and Functions:
 ----------------
@@ -54,6 +65,17 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
     return spam
 ```
 
+Try the following calls to spam:
+
+```python
+i.spam('Alex')
+i.spam(name='Alex')
+i.spam('Alex', 'Hey', 'Globe')
+i.spam(firstword='Hey', name='Alex', secondword='Globe')
+i.spam('Alex', 'Hey', 'Globe', 'WTF?')
+i.spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
+```
+
 ### Function Arguments
 
 The first thing you will notice about the arguments is that python is **dynamically typed**. Type checking is performed at run-time as opposed to compile time.
@@ -65,33 +87,9 @@ Now lets look at each argument, and the special properties and syntax of each on
 * *args* is an **arbitrary argument list**, this means that our function can be called with an arbitrary number of arguments
 * *kwargs* is a dictionary containing all keyword arguments except our formal parameters specified.
 
-In your terminal, navigate to the 1-Intro directory, and type **python**
-
-Lets import some code, so you dont have to write it all in the interpreter:
-```python
-import intro
-```
-
-Note any calls to any functions in intro.py must be prefixed with **intro.**
-
-If you make changes to your intro.py file, instead of closing and reopening the python interpreter, you can simply type
-
-```python
-reload(intro)
-```
 
 *NOTE: We're using out of the box caveman tools to give you an understanding of how things work, more advanced tools will be introduced later*
 
-Try the following calls to spam:
-
-```python
-spam('Alex')
-spam(name='Alex')
-spam('Alex', 'Hey', 'Globe')
-spam(firstword='Hey', name='Alex', secondword='Globe')
-spam('Alex', 'Hey', 'Globe', 'WTF?')
-spam(firstword='Hey', name='Alex', secondword='Globe', crazyvar='WTF?')
-```
 
 ####The Magic of Lambda Functions
 
