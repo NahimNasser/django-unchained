@@ -7,7 +7,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
         secondword: The second word in the sequence, defaulting to 'world'
 
     Returns:
-        A tuple containing all three strings
+        A string containing the name, firstword, and second word
 
     Raises:
         NameError: Only occurs when user named Vimal attempts to use this function

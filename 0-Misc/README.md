@@ -16,3 +16,6 @@ http://effbot.org/zone/import-confusion.htm
 
 Django Tips
 http://coderwall.com/n/django
+
+For the showoff
+http://codeblog.dhananjaynene.com/2011/06/10-python-one-liners-to-impress-your-friends/

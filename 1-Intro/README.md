@@ -31,9 +31,8 @@ Statements and Functions:
 ### Dissection of a python function
 
 ```python
-
 def spam(name, firstword='hello', secondword='world', *args, **kwargs):
-	'''Prints a string with two words and a name
+    '''Prints a string with two words and a name
 
     Args:
         name: The name of the user
@@ -41,20 +40,18 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
         secondword: The second word in the sequence, defaulting to 'world'
 
     Returns:
-        A tuple containing all three strings
+        A string containing the name, firstword, and second word
 
     Raises:
         NameError: Only occurs when user named Vimal attempts to use this function
     '''
 
-    if name=='Vimol':
-    	raise NameError('VI')
+    if name == 'Vimol':
+        raise NameError('VI')
 
-    spam_tuple = (firstword, secondword, name)
-	print "%s %s, %s" % spam_tuple
-
-	return spam_tuple
-
+    #String methods such as capitalize() can be found here: http://docs.python.org/library/stdtypes.html#string-methods
+    spam = "%s %s, %s" % (firstword.capitalize(), secondword, name)
+    return spam
 ```
 
 ### Function Arguments
@@ -151,6 +148,7 @@ newlist = map(lambda x: x * 2, sample)
 ```
 
 The one liner using list comprehensions (faster in this case):
+http://docs.python.org/tutorial/datastructures.html#list-comprehensions
 ```python
 newlist = [x * 2 for number in sample]
 ```
@@ -159,3 +157,9 @@ Now you're probably thinking, when should I use *Map()*, and when should I use a
 
 HOMEWORK: You can find a good discussion here:
 http://stackoverflow.com/questions/1247486/python-list-comprehension-vs-map
+
+#### Unit testing in python:
+* Open up test_intro.py in your text editor
+* run ```python -m unittest test_intro```
+
+Lets create a breakpoint in our code, and walk through a debugging flow.

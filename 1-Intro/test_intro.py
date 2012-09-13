@@ -1,6 +1,7 @@
 from intro import spam
 import unittest
 
+
 class TestIntro(unittest.TestCase):
 
     def test_intro(self):
