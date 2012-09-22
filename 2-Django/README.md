@@ -6,5 +6,6 @@ A high level overview of the various components in a django web application, and
 
 Outline:
 --------
-* Django MVC Overview
-* Setting up a Django Application
+* [Django MVT Overview](https://github.com/NahimNasser/django-unchained/blob/master/2-Django/Session-2-Slides.pdf)
+* [Setting up a Django Application](https://docs.djangoproject.com/en/dev/intro/tutorial01/)
+
