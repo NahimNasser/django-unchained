@@ -36,4 +36,7 @@ I've also created tabtriggered sublime-snippets for things like ```import pdb; p
 * IPython (Very powerful python shell)
 * Ipdb (PDB using IPython)
 * Django-nose (an extension of the unit testing framework)
-* 
+    * nose-progressive plugin
+    * pinocchio
+* Requests (much better than urrllib2 for making requests)
+* Django-Facebook
