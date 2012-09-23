@@ -19,3 +19,21 @@ http://coderwall.com/n/django
 
 For the showoff
 http://codeblog.dhananjaynene.com/2011/06/10-python-one-liners-to-impress-your-friends/
+
+##My Tools:
+I use Sublime Text Editor 2 as my primary text editor
+* Sublime Text Editor 2 Plugins:
+** Using sublime linter for pep8 with additional rule: {"pep8_ignore": ["E501"]}
+** Git for sublime
+** Djaneiro
+** All Autocomplete
+** Markdown Editing
+** Package control
+
+I've also created tabtriggered sublime-snippets for things like ```import pdb; pdb.set_trace()```
+
+##Recommended Python/Django Packages:
+* IPython (Very powerful python shell)
+* Ipdb (PDB using IPython)
+* Django-nose (an extension of the unit testing framework)
+* 
