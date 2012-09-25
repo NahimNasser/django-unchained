@@ -20,6 +20,9 @@ http://coderwall.com/n/django
 For the showoff
 http://codeblog.dhananjaynene.com/2011/06/10-python-one-liners-to-impress-your-friends/
 
+Database Optimization
+https://docs.djangoproject.com/en/dev/topics/db/optimization/
+
 ##My Tools:
 I use Sublime Text Editor 2 as my primary text editor
 * Sublime Text Editor 2 Plugins:
