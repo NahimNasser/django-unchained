@@ -54,7 +54,7 @@ def spam(name, firstword='hello', secondword='world', *args, **kwargs):
         A string containing the name, firstword, and second word
 
     Raises:
-        NameError: Only occurs when user named Vimal attempts to use this function
+        NameError: Only occurs when user named Vimol attempts to use this function
     '''
 
     if name == 'Vimol':
