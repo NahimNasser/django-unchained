@@ -148,7 +148,7 @@ newlist = map(lambda x: x * 2, sample)
 The one liner using list comprehensions (faster in this case):
 http://docs.python.org/tutorial/datastructures.html#list-comprehensions
 ```python
-newlist = [x * 2 for number in sample]
+newlist = [number * 2 for number in sample]
 ```
 
 Now you're probably thinking, when should I use *Map()*, and when should I use a *List Comprehension*?
