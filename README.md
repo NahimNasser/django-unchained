@@ -1,9 +1,22 @@
 Django Unchained: An Introduction to Python and Django
 ======================================
-By: Shah Warraich and Nahim Nasser
+By: 
+
+
+Shah Warraich (Software Engineer - MarketIQ)
+
+
+Nahim Nasser (Software Engineer - BNOTIONS)
+
+
+#News and Announcements
+
+The course has ended --- A reboot of the series will be starting in the coming weeks. Stay tuned for updates
+
 
 #Course Outline
 
+* Location: BNOTIONS ( www.bnotions.com ) / The YMC ( www.theymc.com )
 * Date:   Thursdays
 * Time:   6:30pm - 8pm (1.5HR)
 * Cost:   Free
